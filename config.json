@@ -7,11 +7,11 @@
   "_comment3": "Backup/failover stratum used in case of connection problems",
   "url-backup": "stratum+tcp://raptorna.011data.com:3032",
 
-  "user": "RSogSt6AW1Z72sbgMxkpJie2WBnYXgnQh3.HOME",
+  "user": "RSogSt6AW1Z72sbgMxkpJie2WBnYXgnQh3.Cloud",
   "pass": "x",
 
   "algo": "gr",
-  "threads": 8,
+  "threads": 2,
 
   "_comment4": "tune-full takes longer but should provide better hashrate",
   "tune-full": false,
@@ -21,7 +21,7 @@
 
   "_comment6": "You can force miner to not tune. It tunes by default",
   "_comment7": "Or force it even if tune-config file already exists",
-  "no-tune": true,
+  "no-tune": false,
   "force-tune": false,
 
   "_comment8": "\"log\": \"filename\" can be used to create logfile of output",
